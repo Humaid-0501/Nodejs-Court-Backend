@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 // mongodb+srv://abhishek:abhishek_1@cluster0-h2txx.mongodb.net/test?retryWrites=true&w=majority
 
-mongoose.connect('mongodb://127.0.0.1:27017/'+court,  {
+mongoose.connect('mongodb+srv://abhishek:abhishek_1@cluster0-h2txx.mongodb.net/test?retryWrites=true&w=majority',  {
     useCreateIndex: true,
     useNewUrlParser: true
   });
